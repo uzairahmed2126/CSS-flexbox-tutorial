@@ -36,9 +36,9 @@ body {
 }
 
 .box {
-  flex-grow: 1;
+  flex-grow: 2;
   height: 100px;
-  width: 100px;
+  width: 10rem;
   background-color: #fff;
   /* transition: 0.1s all ease-in-out 0.3s; */
   /* border: black 0.1rem solid; */
@@ -48,14 +48,19 @@ body {
 
 }
 .one {
+  flex-grow:4;
+
   background-color: #c9c3c3;
   /* transition: 1.2s all ease-in-out 0.9s; */
 }
 .two {
+  flex-grow: 6;
+
   background-color: #fff;
   /* transition: 1s all ease-in-out 0.9s; */
 }
 .three {
+  flex-grow: 15;
   background-color: #b3b5d6ef;
   /* transition: 0.9s all ease-in-out 0.9s; */
 }
