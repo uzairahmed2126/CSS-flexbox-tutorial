@@ -10,6 +10,7 @@ body {
 
 .wrapper {
   width: 100%;
+  background: #f1f1f1;
   /* height: fit-content;
   display: flex;
   justify-content: center;
@@ -17,21 +18,20 @@ body {
   margin: 0 auto;
   margin-left: 2rem;
   margin-top: 1rem; */
-  background: #f1f1f1;
   /* transition: 0.9s all ease-in-out 0.1s ; */
 }
 .flex-container {
-  /* margin-bottom: 5rem; */
-  /* margin-top: 20rem; */
-  /* flex-wrap: wrap; */
-  /* flex-wrap: nowrap; */
   flex-wrap: wrap-reverse;
-  /* flex-wrap: inherit; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: rgba(2, 1, 10, 0.788);
+  /* margin-bottom: 5rem; */
+  /* margin-top: 20rem; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: inherit; */
   /* transition: 0.9s all ease-in-out 0.1s ; */
 }
 
