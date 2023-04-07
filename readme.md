@@ -8,3 +8,5 @@ justify-contain:center;
 ## flex-grow;
 * ### It's adjust to container it takes a value in the form of number.
 * ### expand the element with variable space the all element is a realative
+
+## flex shrink
