@@ -6,9 +6,6 @@
 body {
   display: flex;
   /* background-color: rgb(2, 2, 31); */
-
-
-
 }
 
 .wrapper {
@@ -22,7 +19,6 @@ body {
   margin-top: 1rem; */
   background: #f1f1f1;
   /* transition: 0.9s all ease-in-out 0.1s ; */
-  
 }
 .flex-container {
   /* margin-bottom: 5rem; */
@@ -45,22 +41,24 @@ body {
   /* box-shadow: #13141469 0px 0.3rem 10pc 0.1px;  */
   /* width: auto; */
   /* margin: 1rem; */
-
 }
-.one {
-  flex-grow:4;
 
-  background-color: #180b0b;
+.one {
+  flex-grow: 1;
+
+  background-color: #f01d1d;
   /* transition: 1.2s all ease-in-out 0.9s; */
 }
-.two {
-  flex-grow: 6;
 
-  background-color: #581818;
+.two {
+  flex-grow: 3;
+
+  background-color: #0fc470;
   /* transition: 1s all ease-in-out 0.9s; */
 }
+
 .three {
-  flex-grow: 15;
-  background-color: #05072cef;
+  flex-grow: 1;
+  background-color: #0b15cfef;
   /* transition: 0.9s all ease-in-out 0.9s; */
 }
