@@ -10,6 +10,7 @@ a{
     text-decoration: none;
     /* padding: 8.1pc; */
     font-family: system-ui, -apple;
+    background-color: transparent;
 
 }
 
@@ -27,6 +28,32 @@ nav{
 
 nav a{
     color: #fff;
+
     
     /* padding: 90px; */
+}
+nav a:hover{
+    background-color: #08a093;
+    padding: 9px;
+    border-radius: 10px;
+    padding: 0 15px;
+    color: rgba(9, 250, 9, 0.747);
+    transition: 0.7s all ease-in-out 90ms;
+    border: rgba(205, 238, 199, 0.781) 0.1rem solid;
+    box-shadow: #15ccdacc 0px 0.3rem 10pc 2rem; 
+
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        display: flex;
+    }
+    nav a{
+        display: block;        
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+ 
+    
 }
