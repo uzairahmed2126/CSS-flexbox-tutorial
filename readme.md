@@ -9,4 +9,5 @@ justify-contain:center;
 * ### It's adjust to container it takes a value in the form of number.
 * ### expand the element with variable space the all element is a realative
 
-## flex shrink
+## flex-shrink;
+* ### When we minimize our browser that's time we will see heppen to responsive our element as given in html.
