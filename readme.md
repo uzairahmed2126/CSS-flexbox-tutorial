@@ -11,3 +11,6 @@ justify-contain:center;
 
 ## flex-shrink;
 * ### When we minimize our browser that's time we will see heppen to responsive our element as given in html.
+
+## flow-basis;
+* ### The flex-basis property is a sub-property of the Flexible Box Layout module. It specifies the initial size of the flex item, before any available space is distributed according to the flex factors. When omitted from the flex shorthand, its specified value is the length zero.
