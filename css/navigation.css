@@ -50,12 +50,6 @@ nav ul {
   box-shadow: #070808cc 0px 0.3rem 5pc 0.1rem;
 }
 
-
-
-.navicon {
-  /* flex-wrap: wrap */
-} 
-
 .navicon a:hover {
   background-color: #0d12142a;
   padding: 0.9rem;
