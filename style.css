@@ -5,57 +5,55 @@
 
 body {
   display: flex;
-  /* background-color: rgb(2, 2, 31); */
+  background-color: rgb(2, 2, 31);
 }
 
 .wrapper {
   width: 100%;
   background: #f1f1f1;
-  /* height: fit-content;
+  height: fit-content;
   display: flex;
   justify-content: center;
   position: fixed;
   margin: 0 auto;
   margin-left: 2rem;
-  margin-top: 1rem; */
-  /* transition: 0.9s all ease-in-out 0.1s ; */
+  margin-top: 1rem;
+  transition: 0.9s all ease-in-out 0.1s ;
 }
 .flex-container {
-  /* flex-wrap: wrap-reverse; */
+  flex-wrap: wrap-reverse;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  /* flex-direction: row; */
   align-items: center;
-  /* flex-flow: column; */
+  flex-flow: column;
+  justify-content: flex-end;
   background-color: rgba(2, 1, 10, 0.788);
   /* margin-bottom: 5rem; */
   /* margin-top: 20rem; */
   /* flex-wrap: wrap; */
   /* flex-wrap: nowrap; */
   /* flex-wrap: inherit; */
-  /* transition: 0.9s all ease-in-out 0.1s ; */
+  transition: 0.9s all ease-in-out 0.1s ;
 }
 
 .box {
-  /* flex-grow: 2; */
-  flex-basis: 28.4pc;
+  flex-grow: 2;
+  /* flex-basis: 28.4pc; */
   height: 100px;
   width: 10rem;
   background-color: #fff;
-  /* margin-top: 1rem; */
-
-  /* transition: 0.1s all ease-in-out 0.3s; */
-  /* border: black 0.1rem solid; */
-  /* box-shadow: #13141469 0px 0.3rem 10pc 0.1px;  */
-  /* width: auto; */
-  /* margin: 1rem; */
+  margin-top: 1rem;
+  transition: 0.1s all ease-in-out 0.3s;
+  /* border: black 0.1rem solid;
+  box-shadow: #13141469 0px 0.3rem 10pc 0.1px; */
+  margin: 0rem;
 }
 
 .one {
   /* flex-grow: 1; */
   /* flex-shrink: 0.5; */
   background-color: #f01d1d;
-  /* transition: 1.2s all ease-in-out 0.9s; */
+  transition: 1.2s all ease-in-out 0.9s;
 }
 
 .two {
@@ -63,7 +61,7 @@ body {
   /* flex-shrink: 0.1; */
   flex-wrap: nowrap;
   background-color: #0fc470;
-  /* transition: 1s all ease-in-out 0.9s; */
+  transition: 1s all ease-in-out 0.9s;
 }
 
 .three {
@@ -71,5 +69,5 @@ body {
   /* flex-shrink: 0.5; */
   flex-wrap: nowrap;
   background-color: #0b15cfef;
-  /* transition: 0.9s all ease-in-out 0.9s; */
+  transition: 0.9s all ease-in-out 0.9s;
 }
