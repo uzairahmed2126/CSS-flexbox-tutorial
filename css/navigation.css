@@ -50,6 +50,12 @@ nav ul {
   box-shadow: #070808cc 0px 0.3rem 5pc 0.1rem;
 }
 
+
+
+.navicon {
+  /* flex-wrap: wrap */
+} 
+
 .navicon a:hover {
   background-color: #0d12142a;
   padding: 0.9rem;
@@ -91,11 +97,23 @@ a.lin {
   nav ul {
     display: flex;
   }
+
   nav li {
     flex: 1 1 0;
   }
+
   nav {
     display: flex;
     justify-content: space-between;
+  }
+
+ .nav-left , .navicon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-basis: 4;
   }
 }
