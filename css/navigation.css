@@ -1,59 +1,81 @@
-*{
-    font-family: apple-system;
-    margin: 0;
+* {
+  font-family: apple-system;
+  margin: 0;
 }
-body{
-    background-color: #08a093b0;
-}
-
-a{
-    text-decoration: none;
-    /* padding: 8.1pc; */
-    font-family: system-ui, -apple;
-    background-color: transparent;
-
+body {
+  background-color: #08a093b0;
+  color: #fff;
 }
 
+nav a {
+  text-decoration: none;
+  /* padding: 8.1pc; */
+  font-family: system-ui, -apple;
+  background-color: transparent;
+}
 
-nav{
-    background-color: #000;
-    padding: 20px;
+nav {
+  background-color: #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* text-align: center; */
+  align-items: center;
+  /* flex-basis: 9; */
+  /* flex-shrink: 0; */
+}
+
+nav a {
+  color: #fff;
+
+  /* padding: 90px; */
+}
+nav a:hover {
+  background-color: #08a093;
+  padding: 9px;
+  border-radius: 10px;
+  padding: 0 15px;
+  color: rgba(9, 250, 9, 0.747);
+  transition: 0.7s all ease-in-out 90ms;
+  border: rgba(205, 238, 199, 0.781) 0.1rem solid;
+  box-shadow: #15ccdacc 0px 0.3rem 10pc 2rem;
+}
+
+.navicon a {
+  text-indent: 10000px;
+}
+
+a.ins {
+  /* aspect-ratio: 3/2; */
+  /* object-fit: contain; */
+  /* mix-blend-mode: color-burn; */
+  /* width: 8px; */
+  background-image: url(/images/1_Instagram_colored_svg_1-128.webp) no-repeat
+    center;
+}
+a.tt {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  /* mix-blend-mode: color-burn; */
+  background-image: url(/images/1_Linkedin_unofficial_colored_svg-128.webp);
+}
+a.lin {
+  /* aspect-ratio: 3/3; */
+  /* object-fit: contain; */
+  /* mix-blend-mode: color-burn; */
+  background-image: url(/images/1_Twitter_colored_svg-128.webp);
+}
+
+@media screen and (max-width: 768px) {
+  nav {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav a {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
-    flex-basis: 9;
-    /* flex-shrink: 0; */
-
-}
-
-nav a{
-    color: #fff;
-
-    
-    /* padding: 90px; */
-}
-nav a:hover{
-    background-color: #08a093;
-    padding: 9px;
-    border-radius: 10px;
-    padding: 0 15px;
-    color: rgba(9, 250, 9, 0.747);
-    transition: 0.7s all ease-in-out 90ms;
-    border: rgba(205, 238, 199, 0.781) 0.1rem solid;
-    box-shadow: #15ccdacc 0px 0.3rem 10pc 2rem; 
-
-}
-
-@media screen and (max-width: 768px){
-    nav{
-        display: flex;
-    }
-    nav a{
-        display: block;        
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-around;
-    }
- 
-    
+  }
 }
