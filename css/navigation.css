@@ -11,7 +11,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #000;
+  background-color: #0000008e;
   padding: 20px;
 }
 
@@ -35,7 +35,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #000;
+  background-color: transparent;
   margin: 0;
 }
 
@@ -47,7 +47,7 @@ nav ul {
   color: rgba(9, 250, 9, 0.747);
   transition: 0.7s all ease-in-out 90ms;
   /* border: rgba(205, 238, 199, 0.781) 0.1rem solid; */
-  box-shadow: #15ccdacc 0px 0.3rem 10pc 2rem;
+  box-shadow: #070808cc 0px 0.3rem 5pc 0.1rem;
 }
 
 .navicon a:hover {
@@ -56,9 +56,9 @@ nav ul {
   border-radius: 0.4rem;
   /* padding: 0 15px; */
   color: rgba(9, 250, 9, 0.747);
-  transition: 0.7s all ease-in-out 90ms;
+  transition: 0.5s all ease-in-out 90ms;
   /* border: rgba(205, 238, 199, 0.781) 0.1rem solid; */
-  box-shadow: #15ccdacc 20px 0.3rem 10pc 4rem;
+  box-shadow: #198d8df6 0px 0.3rem 25pc 4rem;
 }
 
 .navicon a {
