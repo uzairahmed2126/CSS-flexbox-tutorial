@@ -10,12 +10,13 @@ body {
 
 nav {
   display: flex;
+  justify-content: space-between;
   background-color: #000;
   padding: 20px;
 }
 
 nav li {
-  display: flex;
+  list-style-type: none;
 }
 
 nav a {
@@ -27,43 +28,63 @@ nav a {
   text-align: center;
   padding: 10px;
   border: none;
+  display: block;
 }
 
 nav ul {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #000;
   margin: 0;
 }
 
-nav a:hover {
+.nav-left a:hover {
   background-color: #08a093;
   padding: 9px;
-  border-radius: 10px;
-  padding: 0 15px;
+  border-radius: 0.4rem;
+  padding: 15px;
   color: rgba(9, 250, 9, 0.747);
   transition: 0.7s all ease-in-out 90ms;
-  border: rgba(205, 238, 199, 0.781) 0.1rem solid;
+  /* border: rgba(205, 238, 199, 0.781) 0.1rem solid; */
   box-shadow: #15ccdacc 0px 0.3rem 10pc 2rem;
 }
 
+.navicon a:hover {
+  background-color: #0d12142a;
+  padding: 0.9rem;
+  border-radius: 0.4rem;
+  /* padding: 0 15px; */
+  color: rgba(9, 250, 9, 0.747);
+  transition: 0.7s all ease-in-out 90ms;
+  /* border: rgba(205, 238, 199, 0.781) 0.1rem solid; */
+  box-shadow: #15ccdacc 20px 0.3rem 10pc 4rem;
+}
+
 .navicon a {
-  /* text-indent: -1000px; */
-  /* width: 15%; */
-  /* aspect-ratio: 3/2; */
-  /* object-fit: contain; */
-  /* mix-blend-mode: color-burn; */
-}
-.navicon {
-  max-width: 80px;
-}
-nav ul .navicon {
-  flex: 1 1 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-indent: -10000px;
+  width: 8px;
 }
 
 a.ins {
-  background: url(/images/1_Instagram_colored_svg_1-128.webp) no-repeat center;
+  background: url(..//images/1_Instagram_colored_svg_1-128.webp) no-repeat
+    center;
+  background-size: 60%;
+  aspect-ratio: 3/5;
+  object-fit: contain;
+}
+
+a.tt {
+  background: url(..//images/1_Twitter_colored_svg-128.webp) no-repeat center;
+  background-size: 80%;
+}
+
+a.lin {
+  background: url(..//images/1_Linkedin_unofficial_colored_svg-128.webp)
+    no-repeat center;
+  background-size: 80%;
 }
 
 @media screen and (max-width: 768px) {
