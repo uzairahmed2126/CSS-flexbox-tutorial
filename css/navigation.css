@@ -9,6 +9,7 @@ body {
 }
 
 nav {
+  display: flex;
   background-color: #000;
   padding: 20px;
 }
@@ -25,17 +26,15 @@ nav a {
   align-items: center;
   text-align: center;
   padding: 10px;
-  display: block;
+  border: none;
 }
 
 nav ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   background-color: #000;
   margin: 0;
-  /* padding: 20px; */
-  align-items: center;
 }
 
 nav a:hover {
@@ -50,7 +49,11 @@ nav a:hover {
 }
 
 .navicon a {
-  width: 15%;
+  /* text-indent: -1000px; */
+  /* width: 15%; */
+  /* aspect-ratio: 3/2; */
+  /* object-fit: contain; */
+  /* mix-blend-mode: color-burn; */
 }
 .navicon {
   max-width: 80px;
@@ -61,9 +64,6 @@ nav ul .navicon {
 
 a.ins {
   background: url(/images/1_Instagram_colored_svg_1-128.webp) no-repeat center;
-  aspect-ratio: 3/2;
-  object-fit: contain;
-  mix-blend-mode: color-burn;
 }
 
 @media screen and (max-width: 768px) {
