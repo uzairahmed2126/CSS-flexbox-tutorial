@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+
+}
+
+#blocks{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    flex-flow: row;
+}
+
+#blocks div{
+    flex: 0 0 100px;
+    padding: 48px 0;
+    text-align: center;
+    background-color: #ccc;
+    justify-content: center;
+
+}
+
+.one{order: 3;}
+.two{order: 2;}
+.three{order: 0;}
+.four{order: -1;}
