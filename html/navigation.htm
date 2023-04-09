@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="main ">
         <nav class="left-side">
             <ul class="nav-left">
                 <li><a href="#">home</a></li>
@@ -24,8 +24,18 @@
                 </li>
             </ul>
         </nav>
-
+        <div style="margin: 20px;">
+            <span>Layout:</span>
+            <a href="#" class="stack">stack</a>
+            <a href="#" class="grid">grid</a>
+        </div>
         <div id="portions">
+            <h2>This is article</h2>
+            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic modi autem magnam tenetur. Aut, non.
+                Enim
+                maxime aliquam ad qui ducimus veniam modi asperiores, eos praesentium. Commodi dignissimos quidem
+                molestiae.
+            </article>
             <h2>This is article</h2>
             <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic modi autem magnam tenetur. Aut, non.
                 Enim
@@ -58,6 +68,14 @@
             </article>
         </div>
     </div>
+    <script>
+        $("a .stack").on("click", function(){
+            $("article").addClass("stack");
+        });
+         $("a .grid").on("click", function(){
+            $("article").removeClass("stack");
+        });
+    </script>
 
 </body>
 

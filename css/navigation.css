@@ -8,11 +8,24 @@ body {
   color: #fff;
 }
 
+.main nav{
+  position:relative;
+}
 nav {
   display: flex;
   justify-content: space-between;
   background-color: #0000008e;
   padding: 20px;
+  margin: 0;
+  
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 nav li {
@@ -64,6 +77,7 @@ nav ul {
 .navicon a {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   text-indent: -10000px;
   width: 8px;
 }
@@ -136,6 +150,11 @@ article h2{
   }
   article{
     flex: 0 1 32%;
+    transform: matrix(333);
+  }
+
+  article{
+    flex: 0 1 100%;
   }
   
 }
