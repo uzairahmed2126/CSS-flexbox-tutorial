@@ -87,6 +87,23 @@ a.lin {
   background-size: 80%;
 }
 
+.portions {
+  margin: 20px;
+}
+
+article {
+  flex: 0 1 35%;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #000000ef;
+}
+article h2{
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
 @media screen and (max-width: 768px) {
   nav ul {
     display: flex;
@@ -101,7 +118,8 @@ a.lin {
     justify-content: space-between;
   }
 
- .nav-left , .navicon {
+  .nav-left,
+  .navicon {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,4 +128,14 @@ a.lin {
     flex-grow: 3;
     flex-basis: 4;
   }
+
+  .portions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  article{
+    flex: 0 1 32%;
+  }
+  
 }
